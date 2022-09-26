@@ -1,0 +1,54 @@
+.video{
+    object-fit: cover;
+    width: 100%;
+    height:30rem;
+    position: relative
+}
+.title{
+    position: absolute;
+    margin-top: -13.8rem;
+    margin-left: 23rem;
+    color: var(--white);
+    font-size: 4rem; 
+    font: bold;
+    
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#E0E0E0;
+}
+.navbar a{
+    font-size: 1rem;
+    padding:1rem;
+    color: #333333;
+}
+.navbar span:hover{
+    font-weight: bold;
+    border-bottom: 2.5px solid var(--red);
+}
+.paragraph{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem 20rem;
+    line-height:1.5rem;
+}
+.paragraph p{
+    margin:0;
+}
+.contentSection{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.texts{
+    padding:3rem 2rem 0 15rem;
+    line-height:1.5rem;
+}
+.texts h3{
+    margin: 0;
+}
+.texts p{
+    margin: 0;
+}

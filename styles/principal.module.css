@@ -1,0 +1,67 @@
+.image{
+    margin: 0 auto;
+    position: relative;
+    
+}
+.content{
+    margin-top: 1rem;
+    line-height: 0rem;
+}
+
+@media(max-width: 768px) or (max-width:948px){
+  
+    .text{
+        position: absolute;
+        margin-top: -14rem;
+        margin-left: 3rem;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        color: var(--white);
+
+    }
+}
+@media(min-width: 950px){
+ 
+    .text{
+        position: absolute;
+        margin-top: -23rem;
+        margin-right: 40rem;
+        margin-left: 3rem;
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: var(--white);
+        line-height: 2.3rem;
+    }
+}
+@media(max-width: 530px){
+ 
+    .text{
+        position: absolute;
+        margin-top: -7rem;
+        margin-left: 1rem;
+        font-size: .78rem;
+        color: var(--white);
+        line-height: 1.5rem;
+    }
+}
+.sectionFinal{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.buttons{
+    position: absolute;
+    display: flex;
+    margin-top: -18rem;
+    margin-left: 3rem; 
+    border: none;
+    color: var(--white);
+    background-color: transparent;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons h4:hover{
+    padding-right: 1rem;
+}
+
+
