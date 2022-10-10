@@ -1,0 +1,25 @@
+.paragraph{
+    margin:0 18rem;
+    line-height:2rem;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+.history{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 7rem;
+}
+.textHistory p {
+    padding: 0 3rem 0 6rem;
+    line-height:1.5rem
+}
+.textHistory h2  {
+    padding: 3.5rem 0 0 6rem;
+}
+.textPasion p {
+    padding: 0 3rem 0 6rem;
+    line-height:1.5rem
+}
+.textPasion h2  {
+    padding: 4.5rem 0 0 6rem;
+}
